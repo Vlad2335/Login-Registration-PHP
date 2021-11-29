@@ -1,2 +1,2 @@
 # login
-Includes an registration page.
+Includes a registration page.
