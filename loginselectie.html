@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>FIDL - Login</title>
+    <link rel="stylesheet" href="ontwerp.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/jpg" href="IMG/favicon.png"/>
+    <style>
+    body {
+      background-image: url("LoginV2/IMAGES/wallpaper3.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+      .button-a {
+      color: black;
+      text-align: center;
+      padding: 12px 120px;
+      text-decoration: none;
+      font-size: 24px;
+      length: 100px;
+      border-radius: 4px;
+      }
+
+      .button-a:hover {
+      background: #303952;
+      }
+
+      .right {
+        float: right;
+        position: absolute;
+
+      }
+
+      .field {
+        font-align: center;
+      }
+
+      .td {
+        padding: 10px;
+      }
+
+    .keuze {
+      background: #f1f1f1;
+      width: 1300px; /* Cause of the position problem */
+      font-align: center;
+      margin-top: 130px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+
+    }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <a href="hoofdpagina.html" class="logo">FIDL</a>
+      <div class="header-right">
+        <a href="#producten">Assortiment</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="Dashboard/dash_beheerder.php">Dashboard</a>
+        <a class="active" href="loginselectie.html">Login</a>
+      </div>
+    </div>
+    <center>
+    <div class="keuze"> <!-- Begin van de keuze menu !-->
+    <h1 style="font-size: 50px;"><center>Hoe wilt u inloggen?</center><h1>
+
+      <table style="text-align: center">
+        <tr>
+          <td>Inloggen als beheeerder</td>
+          <td>Inloggen als klant</td>
+        </tr>
+        <tr>
+          <td class="td">
+            <form method="get" action="login_form_beheer.php">
+              <button class="button-a" type="submit">Inloggen als beheerder</button>
+            </form>
+          </td>
+          <td>
+            <form method="get" action="login_form_klant.html">
+              <button class="button-a" type="submit">Inloggen als klant</button>
+            </form>
+          </td>
+    </div>
+    </center>
+  </body>
+</html>
